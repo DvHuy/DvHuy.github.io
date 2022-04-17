@@ -7,7 +7,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -106,8 +106,6 @@ html {
 
 
 /*main*/
-
-#main {}
 
 #header {
     position: fixed;
@@ -246,9 +244,8 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
-
-#content {}
 
 #content .content-section {
     width: 800px;
@@ -546,7 +543,8 @@ html {
 }
 
 .map-section img {
-    filter: grayscale(50%);
+    /* filter: grayscale(50%);*/
     padding-top: 120px;
     width: 100%;
+    
 }
